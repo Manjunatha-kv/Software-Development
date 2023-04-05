@@ -1,0 +1,5 @@
+To solve this problem, we can use the following approach:
+Use the requests library to send HTTP requests to theverge.com and get the HTML content of the webpage.
+Use the BeautifulSoup library to parse the HTML content and extract the required information.
+Store the extracted data in a CSV file and SQLite database.
+Use AWS EC2 to run the script periodically and store the articles in the database.
